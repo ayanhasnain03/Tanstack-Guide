@@ -1,17 +1,3 @@
-
-# React + TypeScript Blog App with TanStack Query
-
-A simple and educational project showing how to use TanStack Query (React Query) to fetch, create, and manage blog posts using React + TypeScript.
-
-
-## 🚀 Features
-
- - Fetch blog posts with caching and background refetching
- - Create posts with real-time UI update (mutation + cache invalidation)
- - Clean and reusable React Query hooks (usePost, useCreate)
- - Environment variable-based configuration
-
-
 # React + TypeScript Blog App with TanStack Query
 
 A simple and educational project showing how to use TanStack Query (React Query) to fetch, create, and manage blog posts using React + TypeScript.
