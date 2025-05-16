@@ -10,3 +10,7 @@ export interface Post {
 export interface PostsResponse {
   posts: Post[];
 }
+export interface CreatePostPayload {
+  title: string;
+  content: string;
+}

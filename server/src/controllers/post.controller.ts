@@ -51,7 +51,7 @@ export const getUserPostController = async (req: Request, res: Response): Promis
 // Controller to handle fetching all posts with pagination (using page and limit from query parameters)
 export const getAllPostsControllers = async (req: Request, res: Response): Promise<void> => {
   // Destructure the 'page' and 'limit' query parameters (default 'limit' to 1 if not provided)
-  const { page, limit = 1 } = req.query;
+  const { page, limit = 8 } = req.query;
 
   try {
     // Call the service function to get all posts with pagination
